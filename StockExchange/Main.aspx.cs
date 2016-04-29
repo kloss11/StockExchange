@@ -105,5 +105,16 @@ namespace StockExchange
             GridView1.DataBind();
             Chart1.DataBind();
         }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            string deleteQuery = "DELETE FROM dbo.ImportedData";
+            string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Agata\Documents\Visual Studio 2015\Projects\StockExchange\StockExchange\App_Data\Database1.mdf;Integrated Security=True";
+            SqlConnection conn = new SqlConnection(connString);
+            SqlCommand comm = new SqlCommand(deleteQuery, conn);
+            conn.Open();
+            comm.ExecuteNonQuery();
+            conn.Close();
+        }
     }
 }

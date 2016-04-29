@@ -211,6 +211,7 @@
 FROM ImportedData 
 ORDER BY DATEPART(yy,[date]) 
 "></asp:SqlDataSource>
+                    <asp:HyperLink ID="HyperLink1" runat="server" Font-Names="Calibri" NavigateUrl="~/compare.aspx">Click here to compare benefits </asp:HyperLink>
                 </td>
                 <td class="auto-style5">&nbsp;</td>
                 <td class="auto-style6">
@@ -224,7 +225,8 @@ ORDER BY DATEPART(yy,[date])
                 <td style="font-family: Calibri; border: medium solid #0000FF; padding: inherit">
                     <asp:FileUpload ID="FileUpload1" runat="server" />
                     <br />
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Import pliku" />
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Import from file" />
+                    <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Delete old data" />
                 </td>
             </tr>
             <tr>
