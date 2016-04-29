@@ -81,7 +81,7 @@
                 <td class="auto-style6">
                     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Compare" />
                     <br />
-                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Main.aspx">Go back to main page</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/index.aspx">Go back to main page</asp:HyperLink>
                 </td>
                 <td class="auto-style4">&nbsp;</td>
             </tr>
