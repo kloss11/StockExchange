@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="compare.aspx" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\marcinnadolny.pubxml" />
+    <None Include="Properties\PublishProfiles\StockExchangeMarcin.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
