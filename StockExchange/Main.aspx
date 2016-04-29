@@ -211,6 +211,7 @@
 FROM ImportedData 
 ORDER BY DATEPART(yy,[date]) 
 "></asp:SqlDataSource>
+                    <asp:HyperLink ID="HyperLink1" runat="server" Font-Names="Calibri" NavigateUrl="~/compare.aspx">Click here to compare benefits </asp:HyperLink>
                 </td>
                 <td class="auto-style5">&nbsp;</td>
                 <td class="auto-style6">
