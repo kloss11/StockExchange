@@ -44,3 +44,4 @@ C:\Users\Agata\documents\visual studio 2015\Projects\StockExchange\StockExchange
 C:\Users\Agata\documents\visual studio 2015\Projects\StockExchange\StockExchange\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Agata\documents\visual studio 2015\Projects\StockExchange\StockExchange\obj\Debug\StockExchange.dll
 C:\Users\Agata\documents\visual studio 2015\Projects\StockExchange\StockExchange\obj\Debug\StockExchange.pdb
+C:\Users\Agata\Documents\Visual Studio 2015\Projects\StockExchange\StockExchange\obj\Debug\StockExchange.csprojResolveAssemblyReference.cache
